@@ -1,0 +1,49 @@
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+
+.quienes-somos{
+
+background-color: black;
+
+}
+
+.bg-secondary{
+
+   height: 10%;
+}
+
+.destacados{
+
+margin-top: 1em;
+}
+
+.hr{
+margin-bottom: 30px;
+width: 1000px;
+
+}
+
+.tarjetas{
+
+    background-color: black;
+    margin-top: -2em;
+}
+.typeform-widget{
+    margin-top: 2em;
+
+
+}
+
+.contacto{
+
+    background-color: black;
+}
+
+.titulo-contacto{
+
+padding-top: 5em;
+
+}
