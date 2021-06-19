@@ -1,6 +1,23 @@
+
+ html {
+    scroll-behavior: smooth;
+  }
+
+
+
+.navbar{
+
+    background-color: black;
+}
+
+.logo{
+    width: 10vh;
+   margin-right:10px;
+}
 html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -55,3 +72,8 @@ padding-top: 5em;
 }
 
 
+.texto{
+
+font-weight: 600;
+
+}

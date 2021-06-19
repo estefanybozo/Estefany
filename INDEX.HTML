@@ -8,8 +8,13 @@
 <!--font awesome-->
     <script src="https://kit.fontawesome.com/bc75a549a9.js" crossorigin="anonymous"></script>
 
-    <!--estilos bootstrap 4.6-->
+<!--tipografias open sans 300-600-700-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+    
+<!--estilos bootstrap 4.6-->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
 <!--estilos propios-->
 <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -18,32 +23,34 @@
 
 </head>
 <body>
+  <header>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top">
       <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg"  alt="logo" class="logo">Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="ml-auto navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="INDEX.HTML">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#quienes-somos">Quienes somos </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
+            
           </ul>
         </div>
       </nav>
     </div>  
-
+  </header>
 
 <!--carusel-->
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -74,21 +81,20 @@
 <!--quienes somos -->
 
 
-<section class="quienes-somos">
+<section class="quienes-somos d-none d-sm-block" id="quienes-somos">
 
 
-  <h3 class="text-center text-white pt-5">¿Quienes somos?</h3>
+  <h3 class=" texto text-center text-white pt-5">¿Quienes somos?</h3>
   <hr class="hr bg-info">
 
 
 
 
-  <div class="container text-white ">
-    <div class="row d-flex justify-content-center">
+<div class="container text-white ">
+<div class="row d-flex justify-content-center">
 <div class="col-md-3 col-sm-12 mx-4">
-  <div class="bg-info col-12 mb-2">
-  <i class="py-1 d-flex justify-content-center
-  fas fa-plane"></i>
+<div class="bg-info col-12 mb-2">
+<i class="py-1 d-flex justify-content-center fas fa-plane"></i>
 </div>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et totam quod vel ut accusantium dignissimos, molestias at illo iusto perferendis ex iure consequatur, perspiciatis neque molestiae dicta libero deleniti inventore perspiciatis neque molestiae dicta libero deleniti inventore!</p>
 </div> <!--div parafo-->
@@ -103,9 +109,9 @@
 
 
 <div class="col-md-3 col-sm-12 mx-4">
-  <div class="bg-info col-12 mb-2">
-  <i class=" d-flex justify-content-center py-1 fas fa-route"></i>
-  </div>
+<div class="bg-info col-12 mb-2">
+<i class=" d-flex justify-content-center py-1 fas fa-route"></i>
+</div>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et totam quod vel ut accusantium dignissimos, molestias at illo iusto perferendis ex iure consequatur, perspiciatis neque molestiae dicta libero deleniti inventore perspiciatis neque molestiae dicta libero deleniti inventore!!</p>
 </div>
 </div><!--div row-->
@@ -120,9 +126,9 @@
 
 
 <!--seccion de cards-->
-<section class="tarjetas">
+<section class="tarjetas" id="destacados">
   
-  <h3 class="destacados text-center text-white ">Destacados</h3>
+  <h3 class="texto destacados text-center text-white ">Destacados</h3>
   <hr class="hr bg-info">
  
 <div class="container text-white">
@@ -172,9 +178,9 @@
 
 <!--formulario typeform-->
 
-<section class="contacto">
+<section class="contacto" id="contacto">
 
-<h3 class="titulo-contacto text-center text-white">Contacto</h3>
+<h3 class="texto titulo-contacto text-center text-white">Contacto</h3>
 <hr class="hr bg-info">
 
 
@@ -249,8 +255,8 @@
 
 
 
-    <!--j query-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!--j query 3.6-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 <!--pooper-->    
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -258,5 +264,7 @@
 <!--bootstrap-->    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
+<!--mi script-->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
