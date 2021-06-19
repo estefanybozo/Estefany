@@ -1,4 +1,7 @@
 
+
+
+//smoth scroll
 $("a").click(function(event){
 if (this.hash !==""){
 event.preventdefault();
@@ -13,3 +16,6 @@ window.location.hash=gato;
 }
 });
 
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
