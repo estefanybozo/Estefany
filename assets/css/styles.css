@@ -47,6 +47,7 @@ width: 1000px;
 
     background-color: black;
     margin-top: -2em;
+    width: 100%;
 }
 .typeform-widget{
     margin-top: 2em;
@@ -81,3 +82,25 @@ font-weight: 600;
     margin-top: 5em;
 }
 
+.tarjetas a:hover img{
+
+    filter: blur(2px);
+}
+.navbar ul li a:hover{
+    color: cadetblue !important;
+}
+
+
+
+
+
+
+i{
+
+    color: white;
+} 
+
+i:hover{
+
+    color:black;
+}  
